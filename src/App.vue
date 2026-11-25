@@ -39,5 +39,35 @@
         and how to choose parts for different needs and budgets.
       </p>
     </section>
+
+    <section id="interests" class="interests-section">
+      <h2>My Interests</h2>
+
+      <div class="interest-cards">
+        <div class="interest-card">
+          <h3>PC Components</h3>
+          <p>
+            Learning about computer parts and understanding how each component
+            works.
+          </p>
+        </div>
+
+        <div class="interest-card">
+          <h3>PC Building</h3>
+          <p>
+            Exploring how to assemble computers and choose the right parts for
+            different needs.
+          </p>
+        </div>
+
+        <div class="interest-card">
+          <h3>Gaming</h3>
+          <p>
+            Playing games and enjoying different gaming experiences in my free
+            time.
+          </p>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
