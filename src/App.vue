@@ -26,5 +26,18 @@
       </p>
       <a class="button" href="#about"> Get to know me </a>
     </main>
+    <section id="about" class="about-section">
+      <h2>About Me</h2>
+
+      <p>
+        I'm a Bachelor of Science in Information Technology student with a
+        strong interest in computer hardware, especially PC building.
+      </p>
+
+      <p>
+        I want to learn more about computer components, how they work together,
+        and how to choose parts for different needs and budgets.
+      </p>
+    </section>
   </div>
 </template>
