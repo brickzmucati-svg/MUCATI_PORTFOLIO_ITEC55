@@ -134,6 +134,7 @@ p {
   width: 220px;
   padding: 15px;
   border-radius: 10px;
+  transition: transform 0.2s ease;
 }
 
 .hobby-card img {
@@ -148,3 +149,19 @@ p {
   margin-top: 12px;
 }
 
+.hobby-card:hover {
+  transform: translateY(-5px);
+}
+
+.footer {
+  background-color: #24543b;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 14px;
+}

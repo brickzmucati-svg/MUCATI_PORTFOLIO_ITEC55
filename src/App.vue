@@ -145,5 +145,8 @@
         </div>
       </div>
     </section>
+    <footer class="footer">
+      <p>Brickz Aloysius R. Mucati | My First Portfolio Project</p>
+    </footer>
   </div>
 </template>
