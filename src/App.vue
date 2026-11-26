@@ -69,5 +69,81 @@
         </div>
       </div>
     </section>
+
+    <section id="hobbies" class="hobbies-section">
+      <h2>My Hobbies</h2>
+
+      <h3>Gaming</h3>
+      <div class="hobby-cards">
+        <div class="hobby-card">
+          <img src="/Valorant.jpeg" alt="Valorant" />
+          <h4>Valorant</h4>
+        </div>
+
+        <div class="hobby-card">
+          <img src="/Tekken7.jpeg" alt="Tekken 7" />
+          <h4>Tekken 7</h4>
+        </div>
+
+        <div class="hobby-card">
+          <img src="/Roblox.png" alt="Roblox" />
+          <h4>Roblox</h4>
+        </div>
+
+        <div class="hobby-card">
+          <img src="/MobileLegends.png" alt="Mobile Legends" />
+          <h4>Mobile Legends</h4>
+        </div>
+      </div>
+
+      <h3>Manga</h3>
+      <div class="hobby-cards">
+        <div class="hobby-card">
+          <img src="/Nisekoi.jpg" alt="Nisekoi" />
+          <h4>Nisekoi</h4>
+        </div>
+
+        <div class="hobby-card">
+          <img src="/MidnightHeart.jpeg" alt="Tune In to the Midnight Heart" />
+          <h4>Tune In to the Midnight Heart</h4>
+        </div>
+      </div>
+
+      <h3>Manhwa</h3>
+      <div class="hobby-cards">
+        <div class="hobby-card">
+          <img src="/Resign.jpg" alt="Ctrl Alt Resign" />
+          <h4>Ctrl+Alt+Resign</h4>
+        </div>
+
+        <div class="hobby-card">
+          <img src="/MiaReturned.jpg" alt="Mia Has Returned" />
+          <h4>Mia Has Returned</h4>
+        </div>
+      </div>
+
+      <h3>Movies</h3>
+      <div class="hobby-cards">
+        <div class="hobby-card">
+          <img src="/HTTYD.png" alt="How to Train Your Dragon" />
+          <h4>How to Train Your Dragon</h4>
+        </div>
+
+        <div class="hobby-card">
+          <img src="/LordOfTheRings.png" alt="Lord of the Rings" />
+          <h4>Lord of the Rings</h4>
+        </div>
+
+        <div class="hobby-card">
+          <img src="/PlanetOfTheApes.png" alt="Planet of the Apes" />
+          <h4>Planet of the Apes</h4>
+        </div>
+
+        <div class="hobby-card">
+          <img src="/TheMazeRunner.png" alt="The Maze Runner" />
+          <h4>The Maze Runner</h4>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
