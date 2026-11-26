@@ -36,6 +36,36 @@ p {
   line-height: 1.8;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 20px 40px;
+  background-color: #f4f7ef;
+}
+
+.navbar h2 {
+  color: #24543b;
+  margin: 0;
+  font-size: 22px;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #24543b;
+  font-weight: 500;
+}
+
+
 .profile-picture {
   width: 160px;
   height: 160px;
