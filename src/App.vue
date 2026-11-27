@@ -1,5 +1,11 @@
+<script setup>
+import { ref } from 'vue'
+
+const isDark = ref(false)
+</script>
+
 <template>
-  <div>
+  <div class="portfolio" :class="{ 'dark-mode': isDark }">
     <nav class="navbar">
       <h2>Brickz Aloysius R. Mucati</h2>
 
@@ -9,6 +15,16 @@
         <a href="#interests">Interests</a>
         <a href="#hobbies">Hobbies</a>
       </div>
+      <button
+        class="theme-toggle"
+        :class="{ active: isDark }"
+        @click="isDark = !isDark"
+        aria-label="Toggle dark mode"
+      >
+        <span class="toggle-icon">
+          {{ isDark ? "⏾" : "☀︎" }}
+        </span>
+      </button>
     </nav>
 
     <main class="hero" id="home">
