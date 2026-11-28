@@ -1,7 +1,7 @@
 <script setup>
-import { ref } from 'vue'
+import { ref } from "vue";
 
-const isDark = ref(false)
+const isDark = ref(false);
 </script>
 
 <template>
@@ -14,6 +14,8 @@ const isDark = ref(false)
         <a href="#about">About</a>
         <a href="#interests">Interests</a>
         <a href="#hobbies">Hobbies</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
       </div>
       <button
         class="theme-toggle"
@@ -85,7 +87,35 @@ const isDark = ref(false)
         </div>
       </div>
     </section>
+    <section id="skills" class="skills-section">
+      <h2>My Skills</h2>
 
+      <div class="skills-cards">
+        <div class="skill-card">
+          <h3>HTML</h3>
+        </div>
+
+        <div class="skill-card">
+          <h3>CSS</h3>
+        </div>
+
+        <div class="skill-card">
+          <h3>MySQL</h3>
+        </div>
+
+        <div class="skill-card">
+          <h3>C++</h3>
+        </div>
+
+        <div class="skill-card">
+          <h3>Java</h3>
+        </div>
+
+        <div class="skill-card">
+          <h3>C#</h3>
+        </div>
+      </div>
+    </section>
     <section id="hobbies" class="hobbies-section">
       <h2>My Hobbies</h2>
 
@@ -161,6 +191,29 @@ const isDark = ref(false)
         </div>
       </div>
     </section>
+
+    <section id="contact" class="contact-section">
+      <h2>Contact Me</h2>
+      <p>You can find me on these platforms.</p>
+
+      <div class="contact-links">
+        <a href="https://www.facebook.com/brickz.mucati" target="_blank" rel="noopener noreferrer">
+          <img src="/Facebook.jpeg" alt="Facebook" />
+          <span>Facebook</span>
+        </a>
+
+        <a href="https://www.instagram.com/rickz.lys/?hl=en" target="_blank" rel="noopener noreferrer">
+          <img src="/Instagram.jpeg" alt="Instagram" />
+          <span>Instagram</span>
+        </a>
+
+        <a href="https://discord.com/users/1365229398357446657" target="_blank" rel="noopener noreferrer">
+          <img src="/Discord.jpg" alt="Discord" />
+          <span>Discord</span>
+        </a>
+      </div>
+    </section>
+
     <footer class="footer">
       <p>Brickz Aloysius R. Mucati | My First Portfolio Project</p>
     </footer>

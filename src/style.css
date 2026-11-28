@@ -261,3 +261,102 @@ p {
 .portfolio.dark-mode .nav-links a {
   color: #b7e4c7;
 }
+
+.skills-section {
+  padding: 60px 30px;
+  text-align: center;
+}
+
+.skills-section h2 {
+  color: #24543b;
+  margin-bottom: 35px;
+}
+
+.skills-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.skill-card {
+  background-color: #eaf0e5;
+  padding: 25px 15px;
+  border: 1px solid #d5e2d0;
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 12px rgba(36, 84, 59, 0.12);
+}
+
+.skill-card h3 {
+  color: #24543b;
+  margin: 0;
+  font-size: 20px;
+}
+
+.portfolio.dark-mode .skill-card {
+  background-color: #243629;
+  border-color: #354b3a;
+}
+
+.portfolio.dark-mode .skill-card h3 {
+  color: #e5e5e5;
+}
+
+.contact-section {
+  padding: 60px 30px;
+  text-align: center;
+  background-color: #f4f7ef;
+}
+
+.contact-section h2 {
+  color: #24543b;
+  margin-bottom: 15px;
+}
+
+.contact-section p {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.contact-links a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #24543b;
+  font-weight: 500;
+  transition: transform 0.2s ease;
+}
+
+.contact-links img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.contact-links a:hover {
+  transform: translateY(-5px);
+}
+
+.portfolio.dark-mode .contact-section {
+  background-color: #17231a;
+}
+
+.portfolio.dark-mode .contact-section h2,
+.portfolio.dark-mode .contact-section p,
+.portfolio.dark-mode .contact-links a {
+  color: #e5e5e5;
+}
